@@ -1,0 +1,50 @@
+header {
+    background-color: rgb(141, 73, 230);
+    height: auto;
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding-top: 6px 15px;
+    font-size: 19px;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+Form {
+    padding: 30px 30px;
+    background-color: rgba(232, 179, 245, 0.753);
+    width: 80%;
+    height: auto;
+    font-size: 19px;
+    margin: 100px 150px;
+}
+
+input {
+    font-size: 15px;
+    width: 400px;
+    color: rgba(0, 3, 2, 0.973)
+}
+
+#leftheader {
+    background-color: rgb(73, 167, 230);
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+p{
+    display: none;
+}
+
+#rightheader {
+    background-color: rgb(230, 206, 73);
+    float: right;
+    padding-right: 45px;
+}
+
+button {
+    padding: 7px 14px;
+    color: inherit;
+    background-color: inherit;
+    border-color: white;
+}
+

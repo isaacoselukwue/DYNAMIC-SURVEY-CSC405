@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Predictive survey</title>
+    <link rel="stylesheet" href="surveyform.css">
+    <script src="surveyform.js"></script>
+</head>
+
+<body>
+    <header>
+        <p id="rightheader">
+            <button onclick="window.close()"> END </button>
+        </p>
+        <p id="leftheader">
+            Job Application Form
+        </p>
+
+    </header>
+    <br>
+    <br>
+    <br>
+    <Form id="body">
+        <p id="reason" style="display:block">
+            Are you interested in full-time employment, part time or either?
+            <input type="text" onchange="reasonValidation()" id="reason_field">
+        </p>
+        <p id="day" style="display:none">
+            How many days can you work in a week?
+            <input type="text" onchange="dayValidation()" id="day_field">
+        </p>
+        <p id="resume">
+            When is the earliest month you can start working with us?
+            <input type="text" onchange="resumeValidation()" id="resume_field">
+        </p>
+        <p id="time">
+            If you're curently working, how much notice do you need to give your employer(one-month, three-months, six-months or one-year)?
+            <input type="text" onchange="timeValidation()" id="time_field">
+        </p>
+        <p id="salary">
+            What are your salary expectations(above/below one-million?
+            <input type="text" onchange="salaryValidation()" id="salary_field">
+        </p>
+        <p id="eligible">
+            Are you eligible to work in Nigeria?
+            <input type="text" onchange="eligibleValidation()" id="eligible_field">
+        </p>
+        <p id="relocate">
+            Are you willing to relocate?
+            <input type="text" onchange="relocateValidation()" id="relocate_field">
+        </p>
+        <p id="remote">
+            This is a remote position. Do you have reliable internet connectiion and a private space to work on remotely?
+            <input type="text" onchange="remoteValidation()" id="remote_field">
+        </p>
+        <p id="travel">
+            Are you available/willing to travel to any part of Nigeria?
+            <input type="text" onchange="travelValidation()" id="travel_field">
+        </p>
+        <p id="medical">
+            Are you willing to undertake a drug test as part of this hiring process?
+            <input type="text" onchange="medicalValidation()" id="medical_field">
+        </p>
+        <p id="background">
+            Are you willing to undergo a background check as part of the hiring process?
+            <input type="text" onchange="backgroundValidation()" id="background_field">
+        </p>
+        <p id="info" style="display:none">
+        </p>
+    </Form>
+</body>
+
+</html>
